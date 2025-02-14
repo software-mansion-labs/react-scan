@@ -1,6 +1,6 @@
 {
   "name": "react-scan",
-  "version": "0.1.3",
+  "version": "0.1.3-radon",
   "description": "Scan your React app for renders",
   "keywords": [
     "react",
@@ -168,7 +168,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "browser": "dist/auto.global.js",
+  "browser": "dist/index.js",
   "types": "dist/index.d.ts",
   "typesVersions": {
     "*": {
