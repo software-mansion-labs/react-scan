@@ -56,14 +56,14 @@
     ".": {
       "production": {
         "import": {
-          "types": "./dist/rsc-shim.d.mts",
+          "types": "./dist/index.d.mts",
           "react-server": "./dist/rsc-shim.mjs",
-          "default": "./dist/rsc-shim.mjs"
+          "default": "./dist/index.mjs"
         },
         "require": {
-          "types": "./dist/rsc-shim.d.ts",
+          "types": "./dist/index.d.ts",
           "react-server": "./dist/rsc-shim.js",
-          "default": "./dist/rsc-shim.js"
+          "default": "./dist/index.js"
         }
       },
       "development": {
